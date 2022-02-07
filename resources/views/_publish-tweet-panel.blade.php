@@ -12,7 +12,7 @@
 
         <footer class="flex justify-between">
             <img
-                src="https://i.pravatar.cc/40"
+                src="{{ auth()->user()->avatar }}"
                 alt="your avatar"
                 class="rounded-full mr-2"
             >
