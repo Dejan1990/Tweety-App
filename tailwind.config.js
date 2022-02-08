@@ -5,7 +5,11 @@ module.exports = {
     "./resources/**/*.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      borderRadius: {
+        lg: '1.25rem'
+      }
+    },
   },
   plugins: [],
 }
