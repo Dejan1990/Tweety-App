@@ -29,6 +29,6 @@ class TweetController extends Controller
             'body' => 'required|max:255'
         ]) + ['user_id' => auth()->id()]);
 
-        return redirect('/home');
+        return redirect()->route('home');
     }
 }
